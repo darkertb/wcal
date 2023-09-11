@@ -8,6 +8,7 @@ export class InputHandler {
       .replaceAll('usd', '*31')
       .replaceAll('rmb', '*4.37')
       .replaceAll('vnd', '*0.0013')
-      .replaceAll('thb', '*0.9');
+      .replaceAll('thb', '*0.9')
+      .replaceAll('%', '/100');
   }
 }
